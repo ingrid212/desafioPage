@@ -24,7 +24,7 @@ header{
   margin-top: 25px;
   margin-bottom: 25px;
 }
-#date{
+#data{
   color: white;
   margin-top: 10px;
   font-size: 23px;
@@ -36,16 +36,21 @@ header{
 #CountDown{
   display: grid;
   grid-auto-flow: column;
-  padding-top: 10px;
+}
+.data-item{
+  color: #514988;
+  font-size: 50px;
+  margin-bottom: 5px;
+  margin-top: 15px;
 }
 #texto{
   color: #E33881;
   font-size: 23px;
   text-align: center;
+  margin-bottom: 2px;
 }
 #video{
   padding: 20px;
-  height: 10px;
 }
 #sec2{ 
   display: grid;
