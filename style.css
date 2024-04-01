@@ -9,13 +9,14 @@ header{
 #sec1{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 50vw;
- text-align: center;
+  grid-auto-columns: auto;
+  text-align: center;
+
 }
 #promo{
   background-color: #514988;
   text-align: center;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 #title{
   font-size: 60px;
@@ -26,7 +27,7 @@ header{
 #date{
   color: white;
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 23px;
 }
 #textTitle{
   color: white;
@@ -35,43 +36,45 @@ header{
 #CountDown{
   display: grid;
   grid-auto-flow: column;
-  margin-right: 17px;
+  padding-top: 10px;
 }
 #texto{
   color: #E33881;
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
-  margin-right: 17px;
 }
 #video{
-  margin: 15px 40px 15px 15px;
+  padding: 20px;
   height: 10px;
 }
 #sec2{ 
-  background-color: #E33881;
   display: grid;
   grid-auto-flow: column;
-  /*background-color: white;*/
-  padding-bottom: 100px;
+  background-color: white;
+  padding-bottom: 150px;
 }
 #subTitle{
   color: #FFD900;
-  padding: 10px;
-  margin: 15px;
-  font-size: 20px;
-}
-button{
-  margin: 30px;
-  margin-top: 10rem;
-  padding: 10px;
-  padding-left: 5px;
-  font-size: 40px;
-  border-radius: 15px;
-  height: 100px;
-  width: 400px;
-  background-color: #514988;
-  border: none;
+  padding-left: 60px;
+  margin: 20px;
+  font-size: 23px;
 }
 #ingressos{
-  padding: 5px;
+  margin-left: 80px;
+}
+button{
+  margin-top: 100px;
+  margin-left: -160px;
+  font-size: 40px;
+  border-radius: 15px;
+  height: 110px;
+  width: 400px;
+  color: white;
+  border: none;
+  background-color: #514988;
+  
+}
+button:hover{
+  cursor: pointer;
+  color: #f3c61f;
 }
